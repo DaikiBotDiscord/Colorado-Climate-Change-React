@@ -157,7 +157,7 @@
   background-color: rgba(255, 255, 255, 0.56);
 }
 .home-text39 {
-  color: #696565;
+  color: rgb(105, 101, 101);
   width: 100%;
   font-size: 1.15rem;
   align-self: center;
@@ -179,16 +179,16 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text40 {
+.home-text43 {
   color: rgb(255, 124, 76);
   font-size: 3rem;
 }
-.home-text41 {
+.home-text44 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.home-text44 {
+.home-text47 {
   color: var(--dl-color-gray-500);
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -199,16 +199,16 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text45 {
+.home-text48 {
   color: rgb(255, 124, 76);
   font-size: 3rem;
 }
-.home-text46 {
+.home-text49 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.home-text49 {
+.home-text52 {
   color: var(--dl-color-gray-500);
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -219,16 +219,16 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text50 {
+.home-text53 {
   color: rgb(255, 124, 76);
   font-size: 3rem;
 }
-.home-text51 {
+.home-text54 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.home-text54 {
+.home-text57 {
   color: var(--dl-color-gray-500);
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -239,16 +239,16 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text55 {
+.home-text58 {
   color: rgb(255, 124, 76);
   font-size: 3rem;
 }
-.home-text56 {
+.home-text59 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.home-text59 {
+.home-text62 {
   color: var(--dl-color-gray-500);
   font-size: 0.75rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -276,16 +276,16 @@
   .home-text28 {
     text-align: center;
   }
-  .home-text40 {
+  .home-text43 {
     text-align: center;
   }
-  .home-text45 {
+  .home-text48 {
     text-align: center;
   }
-  .home-text50 {
+  .home-text53 {
     text-align: center;
   }
-  .home-text55 {
+  .home-text58 {
     text-align: center;
   }
 }
@@ -325,19 +325,19 @@
     padding-right: var(--dl-space-space-twounits);
     grid-template-columns: 1fr 1fr;
   }
-  .home-text41 {
+  .home-text44 {
     text-align: center;
   }
-  .home-text46 {
+  .home-text49 {
     text-align: center;
   }
-  .home-text47 {
+  .home-text50 {
     text-align: center;
   }
-  .home-text51 {
+  .home-text54 {
     text-align: center;
   }
-  .home-text56 {
+  .home-text59 {
     text-align: center;
   }
 }

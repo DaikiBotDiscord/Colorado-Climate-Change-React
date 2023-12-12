@@ -86,43 +86,54 @@ const Home = (props) => {
           <br></br>
         </h1>
         <span className="home-text39">
-          An extremely hot day in Colorado depends on your location: 98ºF is
-          extremely hot for Pueblo, while 87ºF is considered extremely hot for
-          Durango. This is based on historical maximum temperatures on the top
-          2% of days in an average year.
+          <span>
+            An extremely hot day in Colorado depends on your location: 98ºF is
+            extremely hot for Pueblo, while 87ºF is considered extremely hot for
+            Durango.
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>
+            This is based on historical maximum temperatures on the top 2% of
+            days in an average year.
+          </span>
         </span>
         <div className="home-stats1">
           <div className="home-stat4">
-            <h1 className="home-text40">99°F</h1>
-            <span className="home-text41">
+            <h1 className="home-text43">99°F</h1>
+            <span className="home-text44">
               <span>#1 Hottest Cities</span>
               <br></br>
             </span>
-            <span className="home-text44">Grand Junction, Pueblo</span>
+            <span className="home-text47">Grand Junction, Pueblo</span>
           </div>
           <div className="home-stat5">
-            <h1 className="home-text45">96°F</h1>
-            <span className="home-text46">
-              <span className="home-text47">#2 Hottest City</span>
+            <h1 className="home-text48">96°F</h1>
+            <span className="home-text49">
+              <span className="home-text50">#2 Hottest City</span>
               <br></br>
             </span>
-            <span className="home-text49">Greeley</span>
+            <span className="home-text52">Greeley</span>
           </div>
           <div className="home-stat6">
-            <h1 className="home-text50">94°F</h1>
-            <span className="home-text51">
+            <h1 className="home-text53">94°F</h1>
+            <span className="home-text54">
               <span>#3 Hottest Cities</span>
               <br></br>
             </span>
-            <span className="home-text54">Denver, Montrose</span>
+            <span className="home-text57">Denver, Montrose</span>
           </div>
           <div className="home-stat7">
-            <h1 className="home-text55">93-90°F</h1>
-            <span className="home-text56">
+            <h1 className="home-text58">93-90°F</h1>
+            <span className="home-text59">
               <span>#4-7 Hottest Cities</span>
               <br></br>
             </span>
-            <span className="home-text59">
+            <span className="home-text62">
               <span>
                 Fort Collins, Boulder, Castle Rock, Colorado Springs, Durango
               </span>
