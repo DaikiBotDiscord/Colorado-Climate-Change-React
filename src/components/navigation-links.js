@@ -17,8 +17,8 @@ const NavigationLinks = (props) => {
 NavigationLinks.defaultProps = {
   link1: 'Statistics',
   rootClassName: '',
-  link2: 'Features',
-  link3: 'Pricing',
+  link2: 'Challenges',
+  link3: 'Solutions',
 }
 
 NavigationLinks.propTypes = {
