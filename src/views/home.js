@@ -153,16 +153,36 @@ const Home = (props) => {
           <h1 className="home-text68">Precipitation Risk in Colorado</h1>
           <span className="home-text69">
             <span>
-              Historically, Denver experienced an average of 0.6 inches of rain
-              about 10 times per year. In 2050, it is projected to experience an
-              average of 0.6 inches of rain about 11 times per year.
+              Historically,
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="home-text71">Denver</span>
+            <span>
+              {' '}
+              experienced an average of 0.6 inches of rain about 10 times per
+              year. In 2050, it is projected to experience an average of 0.6
+              inches of rain about 11 times per year.
             </span>
             <br></br>
             <br></br>
             <span>
-              Historically, Pueblo experienced an average of 0.6 inches of rain
-              about 9 times per year. In 2050, it is projected to experience an
-              average of 0.5 inches of rain about 10 times per year.
+              Historically,
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="home-text76">Pueblo</span>
+            <span>
+              {' '}
+              experienced an average of 0.6 inches of rain about 9 times per
+              year. In 2050, it is projected to experience an average of 0.5
+              inches of rain about 10 times per year.
             </span>
           </span>
         </div>
