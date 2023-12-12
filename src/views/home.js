@@ -34,58 +34,62 @@ const Home = (props) => {
             <button className="home-button button">Learn More</button>
           </div>
         </div>
+        <h1 className="home-text06">
+          <span>Colorado Climate Risk Rankings</span>
+          <br></br>
+        </h1>
         <div className="home-stats">
           <div className="home-stat">
-            <h1 className="home-text06">#11</h1>
-            <span className="home-text07">
+            <h1 className="home-text09">#11</h1>
+            <span className="home-text10">
               <span>Fire Risk</span>
               <br></br>
             </span>
-            <span className="home-text10">
+            <span className="home-text13">
               <span>Highest fire risk: Oklahoma and Wyoming</span>
               <br></br>
               <span>Lowest fire risk: Maine and Vermont</span>
             </span>
           </div>
           <div className="home-stat1">
-            <h1 className="home-text14">#23</h1>
-            <span className="home-text15">Heat Risk</span>
-            <span className="home-text16">
+            <h1 className="home-text17">#23</h1>
+            <span className="home-text18">Heat Risk</span>
+            <span className="home-text19">
               <span>Highest heat risk: Louisiana and Mississippi</span>
               <br></br>
               <span>Lowest heat risk: California and Oregon</span>
             </span>
           </div>
           <div className="home-stat2">
-            <h1 className="home-text20">#42</h1>
-            <span className="home-text21">
-              <span className="home-text22">Storm Risk</span>
+            <h1 className="home-text23">#42</h1>
+            <span className="home-text24">
+              <span className="home-text25">Storm Risk</span>
               <br></br>
             </span>
-            <span className="home-text24">
+            <span className="home-text27">
               <span>Highest storm risk: Rhode Island and New York</span>
               <br></br>
               <span>Lowest storm risk: Nevada and Arizona</span>
             </span>
           </div>
           <div className="home-stat3">
-            <h1 className="home-text28">#43</h1>
-            <span className="home-text29">
-              <span className="home-text30">Flood Risk</span>
+            <h1 className="home-text31">#43</h1>
+            <span className="home-text32">
+              <span className="home-text33">Flood Risk</span>
               <br></br>
             </span>
-            <span className="home-text32">
+            <span className="home-text35">
               <span>Highest flood risk: Arizona and West Virginia</span>
               <br></br>
               <span>Lowest flood risk: Utah and Nevada</span>
             </span>
           </div>
         </div>
-        <h1 className="home-text36">
+        <h1 className="home-text39">
           <span>Heat Risk in Colorado with Climate Change</span>
           <br></br>
         </h1>
-        <span className="home-text39">
+        <span className="home-text42">
           <span>
             An extremely hot day in Colorado depends on your location: 98ºF is
             extremely hot for Pueblo, while 87ºF is considered extremely hot for
@@ -104,36 +108,36 @@ const Home = (props) => {
         </span>
         <div className="home-stats1">
           <div className="home-stat4">
-            <h1 className="home-text43">99°F</h1>
-            <span className="home-text44">
+            <h1 className="home-text46">99°F</h1>
+            <span className="home-text47">
               <span>#1 Hottest Cities</span>
               <br></br>
             </span>
-            <span className="home-text47">Grand Junction, Pueblo</span>
+            <span className="home-text50">Grand Junction, Pueblo</span>
           </div>
           <div className="home-stat5">
-            <h1 className="home-text48">96°F</h1>
-            <span className="home-text49">
-              <span className="home-text50">#2 Hottest City</span>
+            <h1 className="home-text51">96°F</h1>
+            <span className="home-text52">
+              <span className="home-text53">#2 Hottest City</span>
               <br></br>
             </span>
-            <span className="home-text52">Greeley</span>
+            <span className="home-text55">Greeley</span>
           </div>
           <div className="home-stat6">
-            <h1 className="home-text53">94°F</h1>
-            <span className="home-text54">
+            <h1 className="home-text56">94°F</h1>
+            <span className="home-text57">
               <span>#3 Hottest Cities</span>
               <br></br>
             </span>
-            <span className="home-text57">Denver, Montrose</span>
+            <span className="home-text60">Denver, Montrose</span>
           </div>
           <div className="home-stat7">
-            <h1 className="home-text58">93-90°F</h1>
-            <span className="home-text59">
+            <h1 className="home-text61">93-90°F</h1>
+            <span className="home-text62">
               <span>#4-7 Hottest Cities</span>
               <br></br>
             </span>
-            <span className="home-text62">
+            <span className="home-text65">
               <span>
                 Fort Collins, Boulder, Castle Rock, Colorado Springs, Durango
               </span>
