@@ -31,14 +31,16 @@ const Home = (props) => {
             <br></br>
           </span>
           <div className="home-btn-group">
-            <button className="home-button button">Learn More</button>
+            <a href="#stats" className="home-link button">
+              Learn More
+            </a>
           </div>
         </div>
         <h1 className="home-text06">
           <span>Colorado Climate Risk Rankings</span>
           <br></br>
         </h1>
-        <div className="home-stats">
+        <div id="stats" className="home-stats">
           <div className="home-stat">
             <h1 className="home-text09">#11</h1>
             <span className="home-text10">
