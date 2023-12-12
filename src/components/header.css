@@ -2,13 +2,14 @@
   width: 100%;
   display: flex;
   position: relative;
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  box-shadow: 5px 5px 10px 0px #a3a1a1;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
+  background-color: #ffffff;
 }
 .header-image {
   height: 5rem;

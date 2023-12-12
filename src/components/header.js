@@ -21,13 +21,13 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
-  Image_src: '/colorado-logo-new-720x7201-1500h.jpg',
   Image_alt: 'logo',
+  Image_src: '/colorado-logo-new-720x7201-1500h.jpg',
 }
 
 Header.propTypes = {
-  Image_src: PropTypes.string,
   Image_alt: PropTypes.string,
+  Image_src: PropTypes.string,
 }
 
 export default Header

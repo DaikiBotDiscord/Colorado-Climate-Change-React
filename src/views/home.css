@@ -6,6 +6,17 @@
   align-items: center;
   flex-direction: column;
 }
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: auto,cover;
+  background-image: linear-gradient(113.8deg, rgba(255, 76, 92, 0.8) 7.5%, rgba(255, 177, 70, 0.8) 94.47%),url('https://cwcb.colorado.gov/sites/cwcb/files/styles/tablet_x2_1024px/public/2020-02/Colorado%20farmland%20flooded%20after%20a%20severe%20storm-banner-2mb_0.jpg');
+  background-repeat: repeat,no-repeat;
+  background-position: top left,center;
+}
 .home-hero {
   width: 100%;
   display: flex;
@@ -14,17 +25,13 @@
   min-height: 80vh;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(113.8deg, rgba(255, 76, 92, 0.8) 7.5%, rgba(255, 177, 70, 0.8) 94.47%),url('https://cwcb.colorado.gov/sites/cwcb/files/styles/tablet_x2_1024px/public/2020-02/Colorado%20farmland%20flooded%20after%20a%20severe%20storm-banner-2mb_0.jpg');
-  background-repeat: repeat,no-repeat;
-  background-position: top left,top;
 }
 .home-text {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
 }
-.home-text1 {
+.home-text01 {
   color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
@@ -54,6 +61,96 @@
   transform: scale(1.02);
   background-color: rgba(255, 255, 255, 0.6);
 }
+.home-stats {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-twounits);
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 10px rgba(255, 255, 255, 0.56);
+  background-color: rgba(255, 255, 255, 0.56);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.home-stat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text06 {
+  color: rgb(255, 124, 76);
+  font-size: 3rem;
+}
+.home-text07 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-text10 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-stat1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text11 {
+  color: #FF7C4C;
+  font-size: 3rem;
+}
+.home-text13 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-text14 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-stat2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text15 {
+  color: #FF7C4C;
+  font-size: 3rem;
+}
+.home-text18 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-text19 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-stat3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text20 {
+  color: #FF7C4C;
+  font-size: 3rem;
+}
+.home-text22 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-text23 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
 @media(max-width: 991px) {
   .home-hero {
     flex-direction: column;
@@ -61,7 +158,19 @@
   .home-text {
     text-align: center;
   }
-  .home-text1 {
+  .home-text01 {
+    text-align: center;
+  }
+  .home-text06 {
+    text-align: center;
+  }
+  .home-text11 {
+    text-align: center;
+  }
+  .home-text15 {
+    text-align: center;
+  }
+  .home-text20 {
     text-align: center;
   }
 }
@@ -69,6 +178,23 @@
   .home-hero {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .home-stats {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-text07 {
+    text-align: center;
+  }
+  .home-text13 {
+    text-align: center;
+  }
+  .home-text18 {
+    text-align: center;
+  }
+  .home-text22 {
+    text-align: center;
   }
 }
 @media(max-width: 479px) {
@@ -85,5 +211,12 @@
   .home-button {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
+  }
+  .home-stats {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr;
   }
 }
