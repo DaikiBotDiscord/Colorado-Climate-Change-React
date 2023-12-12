@@ -169,7 +169,6 @@
   display: grid;
   padding: var(--dl-space-space-threeunits);
   grid-gap: var(--dl-space-space-twounits);
-  max-width: var(--dl-size-size-maxwidth);
   box-shadow: 5px 10px 10px 3px rgba(255, 255, 255, 0.56);
   background-color: rgba(255, 255, 255, 0.56);
   grid-template-columns: 1fr 1fr 1fr 1fr;
