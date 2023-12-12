@@ -68,18 +68,22 @@
     justify-content: center;
   }
   .navigation-links-text {
+    font-size: 14px;
     margin-bottom: 0px;
   }
   .navigation-links-text1 {
-    margin-left: var(--dl-space-space-unit);
+    font-size: 14px;
+    margin-left: var(--dl-space-space-halfunit);
     margin-bottom: 0px;
   }
   .navigation-links-text2 {
-    margin-left: var(--dl-space-space-unit);
+    font-size: 14px;
+    margin-left: var(--dl-space-space-halfunit);
     margin-bottom: 0px;
   }
   .navigation-links-text3 {
-    margin-left: var(--dl-space-space-unit);
+    font-size: 14px;
+    margin-left: var(--dl-space-space-halfunit);
     margin-bottom: 0px;
   }
 }
