@@ -150,52 +150,25 @@ const Home = (props) => {
       </div>
       <div className="home-hero1">
         <div className="home-container2">
-          <h1 className="home-text68">Magnificent things are very simple</h1>
+          <h1 className="home-text68">Precipitation Risk in Colorado</h1>
           <span className="home-text69">
             <span>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                volutpat turpis.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
+              Historically, Denver experienced an average of 0.6 inches of rain
+              about 10 times per year. In 2050, it is projected to experience an
+              average of 0.6 inches of rain about 11 times per year.
             </span>
+            <br></br>
+            <br></br>
             <span>
-              <span>
-                Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
+              Historically, Pueblo experienced an average of 0.6 inches of rain
+              about 9 times per year. In 2050, it is projected to experience an
+              average of 0.5 inches of rain about 10 times per year.
             </span>
           </span>
-          <div className="home-btn-group1">
-            <button className="home-button button">Get Started</button>
-            <button className="home-button1 button">Learn More</button>
-          </div>
         </div>
         <img
           alt="image"
-          src="https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxtaW5pbWFsaXNtJTIwZ3JlZW58ZW58MHx8fHwxNjI1ODQxMDcw&amp;ixlib=rb-1.2.1&amp;h=1200"
+          src="/5106fdbdac1f973d6ec7544b5e3ea149e94d93d2-2200x1420-1500h.webp"
           className="home-image"
         />
       </div>
