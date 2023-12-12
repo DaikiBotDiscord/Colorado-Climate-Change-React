@@ -38,7 +38,7 @@
 @media(max-width: 767px) {
   .navigation-links-nav {
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
   }
   .navigation-links-text {
     margin-bottom: var(--dl-space-space-unit);
@@ -50,5 +50,23 @@
   .navigation-links-text2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links-nav {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .navigation-links-text {
+    margin-bottom: 0px;
+  }
+  .navigation-links-text1 {
+    margin-left: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .navigation-links-text2 {
+    margin-left: var(--dl-space-space-unit);
+    margin-bottom: 0px;
   }
 }

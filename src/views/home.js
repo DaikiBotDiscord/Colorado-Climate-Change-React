@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import NavigationLinks from '../components/navigation-links'
+import Header from '../components/header'
 import './home.css'
 
 const Home = (props) => {
@@ -12,51 +12,19 @@ const Home = (props) => {
         <title>Colorado Climate Change</title>
         <meta property="og:title" content="Colorado Climate Change" />
       </Helmet>
-      <header data-role="Header" className="home-header">
-        <img
-          alt="logo"
-          src="/colorado-logo-new-720x7201-1500h.jpg"
-          className="home-image"
-        />
-        <div data-thq="thq-dropdown" className="home-thq-dropdown list-item">
-          <div data-thq="thq-dropdown-toggle" className="home-dropdown-toggle">
-            <div data-thq="thq-dropdown-arrow" className="home-dropdown-arrow">
-              <svg viewBox="0 0 1024 1024" className="home-icon">
-                <path d="M426 726v-428l214 214z"></path>
-              </svg>
-            </div>
-          </div>
-          <ul data-thq="thq-dropdown-list" className="home-dropdown-list">
-            <li data-thq="thq-dropdown" className="home-dropdown list-item">
-              <div
-                data-thq="thq-dropdown-toggle"
-                className="home-dropdown-toggle1"
-              >
-                <span className="home-text">Sub-menu Item</span>
-              </div>
-            </li>
-            <li data-thq="thq-dropdown" className="home-dropdown1 list-item">
-              <div
-                data-thq="thq-dropdown-toggle"
-                className="home-dropdown-toggle2"
-              >
-                <span className="home-text1">Sub-menu Item</span>
-              </div>
-            </li>
-            <li data-thq="thq-dropdown" className="home-dropdown2 list-item">
-              <div
-                data-thq="thq-dropdown-toggle"
-                className="home-dropdown-toggle3"
-              >
-                <span className="home-text2">Sub-menu Item</span>
-              </div>
-            </li>
-          </ul>
+      <Header></Header>
+      <div className="home-hero">
+        <h1 className="home-text">Colorado&apos;s Climate is being damaged</h1>
+        <span className="home-text1">
+          Colorado has warmed substantially in the last 30 years and even more
+          over the last 50 years. Future estimates project temperatures rising
+          an additional 2.5 °F to 5 °F by 2050. This means the warmest summers
+          from our past may become the average summers in our future.
+        </span>
+        <div className="home-btn-group">
+          <button className="home-button button">Learn More</button>
         </div>
-        <div className="home-nav">
-          <NavigationLinks rootClassName="rootClassName17"></NavigationLinks>
-        </div>
-      </header>
+      </div>
     </div>
   )
 }

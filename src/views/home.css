@@ -6,182 +6,84 @@
   align-items: center;
   flex-direction: column;
 }
-.home-header {
+.home-hero {
   width: 100%;
   display: flex;
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: space-between;
-}
-.home-image {
-  height: 5rem;
-}
-.home-thq-dropdown {
-  cursor: pointer;
-  display: inline-block;
+  padding: var(--dl-space-space-threeunits);
   position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.home-dropdown-toggle {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
+  min-height: 80vh;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius2);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.home-dropdown-arrow {
-  transition: 0.3s;
-}
-.home-icon {
-  width: 18px;
-  height: 18px;
-  transition: 0.3s;
-}
-.home-dropdown-list {
-  left: 0%;
-  width: max-content;
-  display: none;
-  z-index: 100;
-  position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  border-color: #D9D9D9;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
-  list-style-type: none;
-  background-color: var(--dl-color-gray-white);
-  list-style-position: inside;
-}
-.home-dropdown {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.home-dropdown-toggle1 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.home-dropdown-toggle1:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient(113.8deg, rgba(255, 76, 92, 0.8) 7.5%, rgba(255, 177, 70, 0.8) 94.47%),url('https://cwcb.colorado.gov/sites/cwcb/files/styles/tablet_x2_1024px/public/2020-02/Colorado%20farmland%20flooded%20after%20a%20severe%20storm-banner-2mb_0.jpg');
+  background-repeat: repeat,no-repeat;
+  background-position: top left,top;
 }
 .home-text {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-dropdown1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.home-dropdown-toggle2 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.home-dropdown-toggle2:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
 }
 .home-text1 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
+  color: var(--dl-color-gray-white);
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
 }
-.home-dropdown2 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.home-dropdown-toggle3 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.home-dropdown-toggle3:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.home-text2 {
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-}
-.home-nav {
-  flex: 0 0 auto;
+.home-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
+.home-button {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.home-button:hover {
+  color: #000000;
+  transform: scale(1.02);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+@media(max-width: 991px) {
+  .home-hero {
+    flex-direction: column;
+  }
+  .home-text {
+    text-align: center;
+  }
+  .home-text1 {
+    text-align: center;
+  }
+}
 @media(max-width: 767px) {
-  .home-header {
+  .home-hero {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-nav {
-    display: none;
-  }
 }
 @media(max-width: 479px) {
-  .home-header {
-    padding: var(--dl-space-space-unit);
+  .home-hero {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
   }
-  .home-dropdown-arrow {
-    padding-left: var(--dl-space-space-sixunits);
+  .home-btn-group {
+    flex-direction: column;
   }
-  .home-dropdown-list {
-    display: none;
+  .home-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
   }
 }
