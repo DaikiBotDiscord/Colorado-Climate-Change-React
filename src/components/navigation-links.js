@@ -7,31 +7,25 @@ import './navigation-links.css'
 const NavigationLinks = (props) => {
   return (
     <nav className={`navigation-links-nav ${props.rootClassName} `}>
-      <span className="navigation-links-text">{props.text}</span>
-      <span className="navigation-links-text1">{props.text1}</span>
-      <span className="navigation-links-text2">{props.text2}</span>
-      <span className="navigation-links-text3">{props.text3}</span>
-      <span className="navigation-links-text4">{props.text4}</span>
+      <span className="navigation-links-text">{props.link1}</span>
+      <span className="navigation-links-text1">{props.link2}</span>
+      <span className="navigation-links-text2">{props.link3}</span>
     </nav>
   )
 }
 
 NavigationLinks.defaultProps = {
-  text: 'About',
-  text3: 'Team',
-  text4: 'Blog',
+  link1: 'Statistics',
   rootClassName: '',
-  text1: 'Features',
-  text2: 'Pricing',
+  link2: 'Features',
+  link3: 'Pricing',
 }
 
 NavigationLinks.propTypes = {
-  text: PropTypes.string,
-  text3: PropTypes.string,
-  text4: PropTypes.string,
+  link1: PropTypes.string,
   rootClassName: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
+  link2: PropTypes.string,
+  link3: PropTypes.string,
 }
 
 export default NavigationLinks
