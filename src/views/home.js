@@ -36,11 +36,11 @@ const Home = (props) => {
             </a>
           </div>
         </div>
-        <h1 className="home-text06">
+        <h1 id="stats" className="home-text06">
           <span>Colorado Climate Risk Rankings</span>
           <br></br>
         </h1>
-        <div id="stats" className="home-stats">
+        <div className="home-stats">
           <div className="home-stat">
             <h1 className="home-text09">#11</h1>
             <span className="home-text10">
