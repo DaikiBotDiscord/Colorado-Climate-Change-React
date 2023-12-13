@@ -450,7 +450,14 @@ const Home = (props) => {
                   Colorado Division of Fire Prevention and Control (DFPC)
                 </span>
               </div>
-              <span className="home-text130">Read More -&gt;</span>
+              <a
+                href="https://dfpc.colorado.gov/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link2"
+              >
+                Read More -&gt;
+              </a>
             </div>
           </div>
         </div>
