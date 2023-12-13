@@ -172,6 +172,35 @@ const Home = (props) => {
           className="home-image"
         />
       </div>
+      <div className="home-hero2">
+        <img
+          alt="image"
+          src="/fb53464364807bd021c623177315ed3693243e10-2400x1300-1500h.webp"
+          className="home-image1"
+        />
+        <div className="home-container3">
+          <h1 className="home-text76">Precipitation Risk in Colorado</h1>
+          <span className="home-text77">
+            <span className="home-text78">Denver</span>
+            <span className="home-text79">
+              {' '}
+              on average had 0.6 inches of rain about 10 times per year. In
+              2050, it&apos;s projected to rain on average 0.6 inches of rain
+              about 11 times per year.
+            </span>
+            <br></br>
+            <br></br>
+            <br></br>
+            <span className="home-text83">Durango</span>
+            <span>
+              {' '}
+              on average had 1.1 inches of rain about 10 times in 2022. In 2050,
+              it&apos;s projected to rain on average of 1.3 inches 13 times.
+            </span>
+            <br></br>
+          </span>
+        </div>
+      </div>
     </div>
   )
 }

@@ -300,6 +300,45 @@
   width: 600px;
   object-fit: cover;
 }
+.home-hero2 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-image1 {
+  width: 701px;
+  object-fit: cover;
+}
+.home-container3 {
+  display: flex;
+  margin-left: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.home-text76 {
+  font-size: 3rem;
+  max-width: 450px;
+}
+.home-text77 {
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.home-text78 {
+  font-weight: 700;
+}
+.home-text79 {
+  font-style: normal;
+  font-weight: 400;
+}
+.home-text83 {
+  font-style: normal;
+  font-weight: 700;
+}
 @media(max-width: 991px) {
   .home-hero {
     flex-direction: column;
@@ -347,6 +386,23 @@
     text-align: center;
   }
   .home-text67 {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .home-hero2 {
+    flex-direction: column;
+  }
+  .home-container3 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .home-text76 {
+    text-align: center;
+  }
+  .home-text77 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -414,6 +470,17 @@
   .home-image {
     width: 80%;
   }
+  .home-hero2 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-image1 {
+    width: 80%;
+  }
+  .home-text77 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
 }
 @media(max-width: 479px) {
   .home-hero {
@@ -451,6 +518,15 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .home-container2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-hero2 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-container3 {
     margin-bottom: var(--dl-space-space-unit);
   }
 }
