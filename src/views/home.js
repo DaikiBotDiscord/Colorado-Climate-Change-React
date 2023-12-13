@@ -16,7 +16,7 @@ const Home = (props) => {
       <div className="home-container1">
         <div className="home-hero">
           <h1 className="home-text">
-            Colorado&apos;s Climate is being damaged
+            Colorado&apos;s Climate is being Damaged
           </h1>
           <span className="home-text01">
             <span>
