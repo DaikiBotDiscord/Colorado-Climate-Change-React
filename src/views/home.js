@@ -270,7 +270,8 @@ const Home = (props) => {
         <div className="home-gallery-card">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxmb3Jlc3R8ZW58MHx8fHwxNjI2MjUxMjg4&amp;ixlib=rb-1.2.1&amp;h=1200"
+            src="/cameron%20peak%20fire-1500h.jpg"
+            loading="lazy"
             className="home-image2"
           />
           <h2 className="home-text091">
@@ -282,7 +283,7 @@ const Home = (props) => {
         <div className="home-gallery-card1">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1579551053957-ee77f9b970c7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ2fHx3b29kc3xlbnwwfHx8fDE2MjY0NDc1ODg&amp;ixlib=rb-1.2.1&amp;w=1000"
+            src="/east%20troublesome%20fire-1400w.jpg"
             className="home-image3"
           />
           <h2 className="home-text095">East Troublesome</h2>
@@ -291,7 +292,7 @@ const Home = (props) => {
         <div className="home-gallery-card2">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHdvb2RzfGVufDB8fHx8MTYyNjQ0NzU3Mw&amp;ixlib=rb-1.2.1&amp;w=1000"
+            src="/pine%20gulch%20fire-1500h.webp"
             className="home-image4"
           />
           <h2 className="home-text097">Pine Gulch</h2>
@@ -300,7 +301,7 @@ const Home = (props) => {
         <div className="home-gallery-card3">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxuYXR1cmV8ZW58MHx8fHwxNjI2NDQ3ODAw&amp;ixlib=rb-1.2.1&amp;w=1000"
+            src="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-12/colorodo-fires-main-jc-211231-33510b.jpg"
             className="home-image5"
           />
           <h2 className="home-text099">Marshall Fire</h2>
@@ -309,7 +310,7 @@ const Home = (props) => {
         <div className="home-gallery-card4">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1529948723647-8b7bd77b441c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxjbGlmZnxlbnwwfHx8fDE2MjY0NDc4MjQ&amp;ixlib=rb-1.2.1&amp;w=1000"
+            src="https://betweenyouandmecounseling.com/wp-content/uploads/2012/04/waldo-canyon-wildfire-2.jpeg"
             className="home-image6"
           />
           <h2 className="home-text101">Waldo Canyon</h2>
@@ -321,12 +322,12 @@ const Home = (props) => {
         <div className="home-gallery-card5">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1553570739-330b8db8a925?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxvY2VhbnxlbnwwfHx8fDE2MjY0NDc4ODQ&amp;ixlib=rb-1.2.1&amp;w=1000"
+            src="https://www.denverpost.com/wp-content/uploads/2016/04/20130611_100618_Black-Forest-Fire-engulfs-house-2.jpg?w=600"
             className="home-image7"
           />
-          <h2 className="home-text105">High Park</h2>
+          <h2 className="home-text105">Black Forest</h2>
           <span className="home-text106">
-            <span>259 Homes Lost, 2012</span>
+            <span>489 Homes Lost, 2013</span>
             <br></br>
           </span>
         </div>
