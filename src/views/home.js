@@ -342,7 +342,7 @@ const Home = (props) => {
           <div className="home-blog-post-card">
             <img
               alt="image"
-              src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/c/o/CO_UpperCORiver_JHOUSTON_20210520_00991.jpg?crop=0%2C37%2C1774%2C1106&amp;wid=1250&amp;hei=780&amp;scl=1.4192"
+              src="https://media.npr.org/assets/img/2021/07/06/img_9242-407b7fa44bf4c9c8568c1aaae7c50ad3c2a0b578.jpg"
               image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
               className="home-image08"
             />
