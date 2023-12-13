@@ -7,12 +7,14 @@ import './navigation-links.css'
 const NavigationLinks = (props) => {
   return (
     <nav className={`navigation-links-nav ${props.rootClassName} `}>
-      <span className="navigation-links-text">{props.link1}</span>
-      <a href="#challenges" className="navigation-links-link">
+      <a href="#stats" className="navigation-links-link">
+        {props.link1}
+      </a>
+      <a href="#challenges" className="navigation-links-link1">
         {props.link2}
       </a>
-      <span className="navigation-links-text1">{props.link3}</span>
-      <span className="navigation-links-text2">{props.link4}</span>
+      <span className="navigation-links-text">{props.link3}</span>
+      <span className="navigation-links-text1">{props.link4}</span>
     </nav>
   )
 }
