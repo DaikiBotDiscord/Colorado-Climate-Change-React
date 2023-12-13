@@ -70,7 +70,7 @@
 }
 .home-text011 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -90,7 +90,7 @@
 }
 .home-text017 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -110,7 +110,7 @@
 }
 .home-text025 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -130,7 +130,7 @@
 }
 .home-text033 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -173,7 +173,7 @@
 }
 .home-text048 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -193,7 +193,7 @@
 }
 .home-text053 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -213,7 +213,7 @@
 }
 .home-text058 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -233,7 +233,7 @@
 }
 .home-text063 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -262,6 +262,7 @@
   max-width: 450px;
 }
 .home-text067 {
+  font-size: 18px;
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -308,6 +309,7 @@
   max-width: 450px;
 }
 .home-text077 {
+  font-size: 18px;
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -386,7 +388,7 @@
 }
 .home-text089 {
   color: var(--dl-color-gray-500);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   margin-bottom: var(--dl-space-space-twounits);
 }
 .home-testimonial-card1 {
@@ -416,7 +418,7 @@
 }
 .home-text093 {
   color: var(--dl-color-gray-500);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   margin-bottom: var(--dl-space-space-twounits);
 }
 .home-container08 {
@@ -448,7 +450,7 @@
 }
 .home-text095 {
   color: var(--dl-color-gray-500);
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   padding-bottom: var(--dl-space-space-threeunits);
 }
 .home-gallery {
