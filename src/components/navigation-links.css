@@ -30,11 +30,12 @@
   color: var(--dl-color-gray-500);
   font-size: 20px;
 }
-.navigation-links-text {
+.navigation-links-link3 {
   transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
-.navigation-links-text:hover {
+.navigation-links-link3:hover {
   color: var(--dl-color-gray-500);
   font-size: 20px;
 }
@@ -59,7 +60,7 @@
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
-  .navigation-links-text {
+  .navigation-links-link3 {
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
@@ -84,7 +85,7 @@
     margin-left: var(--dl-space-space-halfunit);
     margin-bottom: 0px;
   }
-  .navigation-links-text {
+  .navigation-links-link3 {
     font-size: 14px;
     margin-left: var(--dl-space-space-halfunit);
     margin-bottom: 0px;

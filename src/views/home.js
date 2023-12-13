@@ -397,7 +397,7 @@ const Home = (props) => {
                 <div className="home-profile1">
                   <img
                     alt="profile"
-                    src="/colorado-logo-new-720x7201-200h.jpg"
+                    src="/colorado-logo-new-720x7201-1500h.jpg"
                     className="home-image11"
                   />
                   <span className="home-text124">
@@ -458,6 +458,106 @@ const Home = (props) => {
               >
                 Read More -&gt;
               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-features">
+        <h1 id="sources" className="home-text130">
+          Sources Used
+        </h1>
+        <div className="home-container17">
+          <div className="home-feature-card">
+            <img
+              alt="profile"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEU3qHo2p3k4qHo1p3kooXAto3M7qn1BrICByKu23s7e7+jp9fBNsYkxpXbh8er///+r2caW0bmDyKxIr4XD5Nb6+/qc07213s2HtHh/AAABDElEQVR4Ab1SR2IEIQwDGZtqvH3//9NA6tRrNBUkioTdP8N/vc5pgMg7f0pTYIk451lSLrUpDnkQp24DxwLvyF8G2/NVyB0BPPiaIgc62qQHJ7PSAkFw6IJitdp4sKpu78NLuJndgkC1NdW9ApqtRoLeH8/n4z4Um0xJimUG9GEDD51dusx0buEVRNtzCp5N4SXGwZ8KJFytR1ot8Wa4nyUAzlYWkc12X25yTpkVfzmFkVP6s/lje2mjfwWFGZRwq9P2cdQCCq2MCRl+d1i3yCFwTNXswtgcNw2F1fx6vbsNnsj5XcFU+0ZPTPD7kou3UXK15CQM5w+LVkfCwoGW/FIioAEs6J1k+fk3fABWZA44KPYVQAAAAABJRU5ErkJggg=="
+              className="home-image14"
+            />
+            <div className="home-container18">
+              <a
+                href="https://climatecheck.com/colorado"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link3"
+              >
+                <h2 className="home-text131">
+                  <span>Climate Check</span>
+                  <br></br>
+                </h2>
+              </a>
+              <span>
+                <span>
+                  Keep one step ahead of the climate crisis. Get your
+                  proprietary rating️ and report for any US property.
+                </span>
+                <br></br>
+              </span>
+            </div>
+          </div>
+          <div className="home-feature-card1">
+            <img
+              alt="profile"
+              src="/colorado-logo-new-720x7201-1500h.jpg"
+              className="home-image15"
+            />
+            <div className="home-container19">
+              <a
+                href="https://cdphe.colorado.gov/apcd"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link4"
+              >
+                <h2 className="home-text137">
+                  Colorado Department of Public Health and Environment (CDPHE)
+                </h2>
+              </a>
+              <span>
+                <span>
+                  Air Pollution Control | Department of Public Health &amp;
+                  Environment
+                </span>
+                <br></br>
+              </span>
+            </div>
+          </div>
+          <div className="home-feature-card2">
+            <img
+              alt="profile"
+              src="data:image/png;base64,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"
+              className="home-image16"
+            />
+            <div className="home-container20">
+              <a
+                href="https://www.nature.org/en-us/about-us/where-we-work/united-states/colorado/stories-in-colorado/colorado-charting-a-future-for-colorado-river/#:~:text=These%20strategies%20include%20reducing%20water,improving%20stream%20and%20river%20health."
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link5"
+              >
+                <h2 className="home-text141">The Nature Conservancy</h2>
+              </a>
+              <span>
+                The Nature Conservancy: A World Where People &amp; Nature Thrive
+              </span>
+            </div>
+          </div>
+          <div className="home-feature-card3">
+            <img
+              alt="profile"
+              src="https://fireadaptedco.org/wp-content/uploads/2022/11/co-fire.png"
+              className="home-image17"
+            />
+            <div className="home-container21">
+              <a
+                href="https://dfpc.colorado.gov/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link6"
+              >
+                <h2 className="home-text143">
+                  Colorado Division of Fire Prevention and Control (DFPC)
+                </h2>
+              </a>
+              <span>DFPC | Fire Prevention and Control</span>
             </div>
           </div>
         </div>
