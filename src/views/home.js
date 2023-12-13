@@ -179,7 +179,7 @@ const Home = (props) => {
           className="home-image1"
         />
         <div className="home-container3">
-          <h1 className="home-text76">Precipitation Risk in Colorado</h1>
+          <h1 className="home-text76">Fire Risk in Colorado</h1>
           <span className="home-text77">
             <span>
               Fire risk depends on the type of vegetations and other land cover
