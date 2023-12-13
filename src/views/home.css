@@ -1282,6 +1282,9 @@
   .home-icon {
     align-self: flex-start;
   }
+  .home-text088 {
+    align-self: flex-start;
+  }
   .home-text089 {
     text-align: left;
   }
@@ -1298,6 +1301,9 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-icon2 {
+    align-self: flex-start;
+  }
+  .home-text090 {
     align-self: flex-start;
   }
   .home-text093 {
