@@ -181,21 +181,24 @@ const Home = (props) => {
         <div className="home-container3">
           <h1 className="home-text76">Precipitation Risk in Colorado</h1>
           <span className="home-text77">
-            <span className="home-text78">Denver</span>
-            <span className="home-text79">
-              {' '}
-              on average had 0.6 inches of rain about 10 times per year. In
-              2050, it&apos;s projected to rain on average 0.6 inches of rain
-              about 11 times per year.
-            </span>
-            <br></br>
-            <br></br>
-            <br></br>
-            <span className="home-text83">Durango</span>
             <span>
-              {' '}
-              on average had 1.1 inches of rain about 10 times in 2022. In 2050,
-              it&apos;s projected to rain on average of 1.3 inches 13 times.
+              Fire risk depends on the type of vegetations and other land cover
+              in the area, and topography. Fire risk is greatly increased in the
+              presence of a
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span className="home-text79">red flag warning</span>
+            <span>, when heat, low humidity, and strong winds converge.</span>
+            <br></br>
+            <br></br>
+            <span>
+              One of the areas, with the lowest fire risk, is Greeley. One of
+              the areas with the highest fire risk is Castle Rock and this is
+              due to the amount of crops and vegetation in the area
             </span>
             <br></br>
           </span>
