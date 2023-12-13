@@ -334,7 +334,7 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-blog">
-        <h1 className="home-text114">
+        <h1 id="solutions" className="home-text114">
           <span>Solutions to these Challenges</span>
           <br></br>
         </h1>

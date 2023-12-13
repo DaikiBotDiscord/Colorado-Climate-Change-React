@@ -21,19 +21,20 @@
   color: var(--dl-color-gray-500);
   font-size: 20px;
 }
+.navigation-links-link2 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-link2:hover {
+  color: var(--dl-color-gray-500);
+  font-size: 20px;
+}
 .navigation-links-text {
   transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text:hover {
-  color: var(--dl-color-gray-500);
-  font-size: 20px;
-}
-.navigation-links-text1 {
-  transition: 0.3s;
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links-text1:hover {
   color: var(--dl-color-gray-500);
   font-size: 20px;
 }
@@ -54,11 +55,11 @@
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
-  .navigation-links-text {
+  .navigation-links-link2 {
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
-  .navigation-links-text1 {
+  .navigation-links-text {
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
@@ -78,12 +79,12 @@
     margin-left: var(--dl-space-space-halfunit);
     margin-bottom: 0px;
   }
-  .navigation-links-text {
+  .navigation-links-link2 {
     font-size: 14px;
     margin-left: var(--dl-space-space-halfunit);
     margin-bottom: 0px;
   }
-  .navigation-links-text1 {
+  .navigation-links-text {
     font-size: 14px;
     margin-left: var(--dl-space-space-halfunit);
     margin-bottom: 0px;

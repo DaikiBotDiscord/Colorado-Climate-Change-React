@@ -13,8 +13,10 @@ const NavigationLinks = (props) => {
       <a href="#challenges" className="navigation-links-link1">
         {props.link2}
       </a>
-      <span className="navigation-links-text">{props.link3}</span>
-      <span className="navigation-links-text1">{props.link4}</span>
+      <a href="#solutions" className="navigation-links-link2">
+        {props.link3}
+      </a>
+      <span className="navigation-links-text">{props.link4}</span>
     </nav>
   )
 }
