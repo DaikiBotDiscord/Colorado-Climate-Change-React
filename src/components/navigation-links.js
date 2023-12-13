@@ -8,9 +8,11 @@ const NavigationLinks = (props) => {
   return (
     <nav className={`navigation-links-nav ${props.rootClassName} `}>
       <span className="navigation-links-text">{props.link1}</span>
-      <span className="navigation-links-text1">{props.link2}</span>
-      <span className="navigation-links-text2">{props.link3}</span>
-      <span className="navigation-links-text3">{props.link4}</span>
+      <a href="#challenges" className="navigation-links-link">
+        {props.link2}
+      </a>
+      <span className="navigation-links-text1">{props.link3}</span>
+      <span className="navigation-links-text2">{props.link4}</span>
     </nav>
   )
 }
