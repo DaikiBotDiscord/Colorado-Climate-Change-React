@@ -460,8 +460,8 @@ const Home = (props) => {
               <span className="home-text138">
                 <span>
                   Ways we&apos;ve tried to increase the air quality in Colorado
-                  by enforcing strict emission standards, with these standards
-                  we are also promoting electric vehicles and public
+                  is by enforcing strict emission standards, with these
+                  standards we are also promoting electric vehicles and public
                   transportation, and increasing green spaces.
                 </span>
                 <br></br>
