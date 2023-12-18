@@ -674,6 +674,32 @@ const Home = (props) => {
               <span>DFPC | Fire Prevention and Control</span>
             </div>
           </div>
+          <div className="home-feature-card4">
+            <img
+              alt="profile"
+              src="/download-1500h.jpeg"
+              className="home-image18"
+            />
+            <div className="home-container22">
+              <a
+                href="https://collective.coloradotrust.org/stories/how-colorados-changing-climate-is-putting-childrens-health-at-risk/#:~:text=Colorado's%20changing%20climate%20and%20rising,than%20it%20was%20in%201970."
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link14"
+              >
+                <h2 className="home-text163">Colorado Trust</h2>
+              </a>
+              <span>
+                Collective Colorado is an initiative of The Colorado Trust, a
+                statewide philanthropic foundation.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
