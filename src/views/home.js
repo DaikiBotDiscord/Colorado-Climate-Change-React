@@ -700,6 +700,28 @@ const Home = (props) => {
               </span>
             </div>
           </div>
+          <div className="home-feature-card5">
+            <img
+              alt="profile"
+              src="/download%20(1)-1500h.jpeg"
+              className="home-image19"
+            />
+            <div className="home-container23">
+              <a
+                href="https://journals.ametsoc.org/view/journals/clim/23/9/2009jcli2951.1.xml"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link15"
+              >
+                <h2 className="home-text165">
+                  American Meteorological Society
+                </h2>
+              </a>
+              <span>
+                Changes in the Timing of Snowmelt and Streamflow in Colorado
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
